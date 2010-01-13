@@ -1,6 +1,6 @@
 Name: x11-font-misc-cyrillic
-Version: 1.0.0
-Release: %mkrel 7
+Version: 1.0.1
+Release: %mkrel 1
 Summary: Xorg X11 font misc-cyrillic
 Group: Development/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -23,8 +23,8 @@ Xorg X11 font misc-cyrillic
 %setup -q -n font-misc-cyrillic-%{version}
 
 %build
-%configure2_5x	--x-includes=%{_includedir}\
-		--x-libraries=%{_libdir} --with-fontdir=%_datadir/fonts/cyrillic
+./configure --prefix=/usr --x-includes=%{_includedir}\
+	    --x-libraries=%{_libdir} --with-fontdir=%_datadir/fonts/cyrillic
 
 %make
 
