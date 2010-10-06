@@ -1,5 +1,5 @@
 Name: x11-font-misc-cyrillic
-Version: 1.0.1
+Version: 1.0.2
 Release: %mkrel 1
 Summary: Xorg X11 font misc-cyrillic
 Group: Development/X11
@@ -9,7 +9,7 @@ Source: http://xorg.freedesktop.org/releases/individual/font/font-misc-cyrillic-
 License: MIT-like and Public Domain
 BuildArch: noarch
 BuildRequires: x11-font-util >= 1.0.0
-BuildRequires: x11-util-macros >= 1.0.1
+BuildRequires: x11-util-macros >= 1.0.2
 Conflicts: xorg-x11-cyrillic-fonts <= 6.9.0
 Requires(post): mkfontdir
 Requires(postun): mkfontdir
