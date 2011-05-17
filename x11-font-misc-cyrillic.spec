@@ -8,6 +8,7 @@ URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/font/font-misc-cyrillic-%{version}.tar.bz2
 License: MIT-like and Public Domain
 BuildArch: noarch
+BuildRequires: fontconfig
 BuildRequires: x11-font-util >= 1.0.0
 BuildRequires: x11-util-macros >= 1.0.2
 Conflicts: xorg-x11-cyrillic-fonts <= 6.9.0
