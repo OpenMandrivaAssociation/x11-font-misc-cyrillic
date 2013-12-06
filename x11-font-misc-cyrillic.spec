@@ -1,6 +1,6 @@
 Name: x11-font-misc-cyrillic
 Version: 1.0.3
-Release: 8
+Release: 9
 Summary: Xorg X11 font misc-cyrillic
 Group: Development/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
