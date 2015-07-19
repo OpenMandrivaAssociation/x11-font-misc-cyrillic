@@ -1,6 +1,6 @@
 Name: x11-font-misc-cyrillic
 Version: 1.0.3
-Release: 12
+Release: 13
 Summary: Xorg X11 font misc-cyrillic
 Group: Development/X11
 URL: http://xorg.freedesktop.org
